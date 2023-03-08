@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="/jquery.js">
+        
+    </script>
+    <script type="text/javascript" src="/animation.js"></script>
+    <script type="text/javascript" src="/validation.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+
+
+<body>
+    <form name="myform" onsubmit="return validateForm()">
+        <div class="form">
+        <ul>
+        <li class="title">Your Personal Details</li>
+        <li class="fields">
+            <label for="first name">*First Name</label> <br/>
+            <input id="first name" class="req" type="text"> <br/>
+            <label for="middle name">Second Name</label> <br/>
+            <input id="middle name" type="text"> <br/>
+            <label for="last name">Last Name</label> <br/>
+            <input id="last name" type="text"> <br/>
+            <label for="email">*Email</label> <br/>
+            <input id="email" class="req" type="email"> <br/>
+        </li>
+        <li class="title">Your Personal Address</li>
+        <li class="fields">
+            <label for="city">City</label> <br/>
+            <input id="city" type="text"> <br/>
+            <label for="state">State</label> <br/>
+            <input id="state" type="text"> <br/>
+            <label for="country">*Country</label> <br/>
+            <input id="country" class="req" type="text"> <br/>
+        </li>
+        <li class="title">Your Profession</li>
+        <li class="fields">
+            <label for="job">Occupation</label> <br/>
+            <input id="job" type="text"> <br/>
+            <label for="company">Comapny</label> <br/>
+            <input id="company" type="text"> <br/>
+            <label for="location">*Company Location</label> <br/>
+            <input id="location" class="req" type="text"> <br/>
+        </li>
+            </ul>
+        <input type="Submit" value="Submit form">
+    </div>
+</form>
+</body>
+</html>
